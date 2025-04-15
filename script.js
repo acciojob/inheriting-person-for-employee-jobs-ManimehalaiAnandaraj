@@ -5,7 +5,7 @@ class Person {
 		this.age=age;
 	}
 	greet(){
-		return "Hello, my name is <name>, I am <age> years old."
+		return `Hello, my name is ${name}, I am ${age} years old.`
 	}
 }
 
@@ -15,7 +15,7 @@ class Employee extends Person{
 		this.jobTitle=jobTitle;
 	}
 	greet(){
-		return "Hello, my name is <name>, I am <age> years old, and my job title is <jobTitle>."
+		return `Hello, my name is ${name}, I am ${age} years old, and my job title is ${jobTitle}.`
 	}
 ) 
 
