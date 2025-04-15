@@ -17,7 +17,7 @@ class Employee extends Person{
 	greet(){
 		return `${super.greet()},and my job title is ${this.jobTitle}.`
 	}
-) 
+}
 
 // Do not change code below this line
 window.Person = Person;
