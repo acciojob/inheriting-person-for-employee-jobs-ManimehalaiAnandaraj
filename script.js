@@ -4,7 +4,7 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	greet(){
+	get greet(){
 		return `Hello, my name is ${this.name}, I am ${this.age} years old.`;
 	}
 }
@@ -14,7 +14,7 @@ class Employee extends Person{
 		super(name,age);
 		this.jobTitle=jobTitle;
 	}
-	greet(){
+	get greet(){
 		return `${super.greet()},and my job title is ${this.jobTitle}.`;
 	}
 }
