@@ -14,7 +14,7 @@ class Employee extends Person{
 		super(name,age);
 		this.jobTitle=jobTitle;
 	}
-	 greet(){
+	 jobGreet(){
 		console.log(`${super.greet()},and my job title is ${this.jobTitle}.`);
 	}
 }
